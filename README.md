@@ -1,6 +1,6 @@
 # Fedor Zaletov — Portfolio
 
-Portfolio of Fedor Zaletov — Product Owner / Unity Developer.
+Portfolio of Fedor Zaletov — Project Lead / Unity Developer.
 
 I take games from idea to release through product decisions, team coordination and hands-on development.
 
