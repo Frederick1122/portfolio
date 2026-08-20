@@ -6,14 +6,24 @@ Static one-page portfolio for GitHub Pages.
 
 Open `index.html` in a browser.
 
-## Before publishing
+## Content
 
-Search inside `index.html` and replace:
+The page is ready with:
 
-- `YOUR_EMAIL_HERE`
-- RoadCraft contribution placeholder
-- project/media placeholders
-- project links, if desired
+- English/Russian language switching based on browser locale, with manual override
+- project media in `images/`
+- project, Steam, itch.io, LinkedIn, Telegram and email links
+- responsive layout, accessibility focus states and reduced-motion support
+
+To preview media and the language switcher locally, serve the folder over HTTP:
+
+```bash
+python -m http.server 4173
+```
+
+Then open `http://127.0.0.1:4173/`.
+
+Before publishing, verify that all project descriptions and media are approved for public use.
 
 ## Publish to GitHub Pages
 
