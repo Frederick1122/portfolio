@@ -1,64 +1,28 @@
 # Fedor Zaletov — Portfolio
 
-Static one-page portfolio for GitHub Pages.
+Portfolio of Fedor Zaletov — Product Owner / Unity Developer.
 
-## Local preview
+I take games from idea to release through product decisions, team coordination and hands-on development.
 
-Open `index.html` in a browser.
+## Focus
 
-## Content
+- Turning strong game ideas into finished products
+- Product thinking, concept development and validating core hypotheses
+- Coordinating small teams and taking projects to a finished result
+- Gameplay systems and player-facing features
+- Unity / C# development
+- Live-ops, UI, profiling and optimization
 
-The page is ready with:
+## Projects
 
-- English/Russian language switching based on browser locale, with manual override
-- project media in `images/`
-- project, Steam, itch.io, LinkedIn, Telegram and email links
-- responsive layout, accessibility focus states and reduced-motion support
+- **RoadCraft** — gameplay programming, cargo and logistics systems, and game UI.
+- **Hoby Tales / Мир домовят** — gameplay systems, live-ops events and offers, UI flows, optimization, loading, Addressables and production tooling.
+- **Drum'n'Ice** — original concept, full gameplay code, product management and team coordination.
 
-To preview media and the language switcher locally, serve the folder over HTTP:
+The portfolio is available in English and Russian and includes project artwork together with links to public game pages.
 
-```bash
-python -m http.server 4173
-```
+## Contact
 
-Then open `http://127.0.0.1:4173/`.
-
-Before publishing, verify that all project descriptions and media are approved for public use.
-
-## Publish to GitHub Pages
-
-Create an empty public repository on GitHub, for example:
-
-`fedor-portfolio`
-
-Then from this folder run:
-
-```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/fedor-portfolio.git
-git push -u origin main
-```
-
-Then on GitHub:
-
-**Settings → Pages → Build and deployment → Source: Deploy from a branch**
-
-Choose:
-
-- Branch: `main`
-- Folder: `/ (root)`
-
-Save.
-
-The site will be available at:
-
-`https://YOUR_GITHUB_USERNAME.github.io/fedor-portfolio/`
-
-## Optional custom domain
-
-Later you can connect a domain such as `fedorzaletov.dev` in:
-
-**Settings → Pages → Custom domain**
+- Email: [zaletovofficial@gmail.com](mailto:zaletovofficial@gmail.com)
+- LinkedIn: [linkedin.com/in/fyodor-zaletov-261693231](https://www.linkedin.com/in/fyodor-zaletov-261693231/)
+- Telegram: [@Frederick1_1](https://t.me/Frederick1_1)
